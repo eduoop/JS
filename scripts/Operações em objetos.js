@@ -12,3 +12,4 @@ var any = {
 person = Object.assign(person, any)
 
 console.log(person)
+
