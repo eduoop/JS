@@ -9,6 +9,37 @@
         body {
             background: rgb(20, 56, 99);
         }
+
+        .btn {
+            font-family: Helvetica, sans-serif;
+            background-color: rgb(12, 94, 218);
+            border: none;
+            font-size: 2em;
+            color: white;
+            border-radius: 12px;
+            padding: 9px 12px 9px 12px;
+            cursor: pointer;
+            box-shadow: 0px 0px .1em rgba(0, 0, 0, 0.274);
+            margin: 15px;
+        }
+
+        .btna {
+            font-family: Helvetica, sans-serif;
+            background-color: rgb(218, 77, 12);
+            border: none;
+            font-size: 2em;
+            color: white;
+            border-radius: 12px;
+            padding: 9px 12px 9px 12px;
+            cursor: pointer;
+            box-shadow: 0px 0px .1em rgba(0, 0, 0, 0.274);
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 </head>
 <body>
@@ -23,6 +54,17 @@
         <div class="square"></div>
     </div>
 
-    <script src="scripts/Alterando estilos.js"></script>
+    <div id="ps">
+        <p>teste</p>
+    </div>
+
+    <div class="container">
+        <button class="btn">XML</button>
+        <button class="btna">AXIOS</button>
+    </div>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="JS/Requisições AJAX.js"></script>
 </body>
 </html>
